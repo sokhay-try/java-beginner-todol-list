@@ -68,6 +68,10 @@ public class TodoList {
                 action.showActionsInformation();
                 action.executeAction(null);
                 break;
+            case Actions.EXIT:
+                applicationRunning = false;
+                System.out.println("Exit Application!");
+                break;
         }
 
     }
